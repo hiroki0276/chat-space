@@ -125,24 +125,24 @@
   }
 
   &__message-list {
-    height: calc(100vh - 190px);
+    height: calc(100% - 190px);
     background-color: #fafafa;
     padding-top: 35px;
     padding-left: 40px;
 
-    &__message {
+      &__message {
 
       &__name {
         color: #333333;
         font-size: 16px;
         display: flex;
       }
-      &__time {
+      &__date {
         color: #999999;
         font-size: 12px;
         margin-left: 5px;
       }
-      &__text {
+      .Message {
         color: #434a54;
         font-size: 14px;
         margin: 12px 0 46px;
