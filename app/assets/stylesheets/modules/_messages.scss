@@ -84,6 +84,7 @@
   height: 100vh;
   width: calc(100vw - 300px);
   background-color: #ffffff;
+  
 
   a {
     color: #38aef0;
@@ -99,6 +100,7 @@
     padding: 0 40px;
     display: flex;
     justify-content: space-between;
+    
 
     &__name {
       font-size: 20px;
@@ -129,8 +131,11 @@
     background-color: #fafafa;
     padding-top: 35px;
     padding-left: 40px;
+    overflow: scroll;
+    
 
       &__message {
+        
 
       &__name {
         color: #333333;
@@ -157,6 +162,7 @@
     display: flex;
     align-items: center;
     padding: 0 40px;
+    
 
     &__textarea {
       height: 50px;
@@ -165,6 +171,7 @@
       align-items: center;
       justify-content: space-between;
       position: relative;
+      
 
       .input-text {
         width: 100%;
