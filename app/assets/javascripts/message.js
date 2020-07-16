@@ -52,10 +52,11 @@ $(function(){
       $('.main-chat__message-list').append(html);      
       $('.main-chat__message-form')[0].reset();
       $('.main-chat__message-list').animate({ scrollTop: $('.main-chat__message-list')[0].scrollHeight});
-      $('.input-submit').prop('disabled', false);
     })
     .fail(function() {
       alert("メッセージ送信に失敗しました");
+    })
+    .always(function(){
       $('.input-submit').prop('disabled', false);
     });
   })
